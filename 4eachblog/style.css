@@ -7,27 +7,24 @@ height: 60px;
 background-color:black;
 }
 
-.logo{float:center;
-    width:200px;
-    padding-right:100px;
-    color:white;
-    font-size:100px;
-    line-height:60px;
-}
 
-header ul{float:center;
+header ul{float:left;
 line-height:40px;
 }
 
-header ul li{float:left;
-    padding-left:100px;
+header li{clear:left;
+    float:left;
+    padding-left:10px;
     list-style:none;
     color:white;
     font-size:18px;
 }
-.main-container{width:95%;
-                margin: 0 auto;
-                margin-top:70px;
+
+
+.main-container{clear:left;
+    width:95%;
+    margin: 0 auto;
+    margin-top:70px;
 }
 
     
@@ -35,18 +32,39 @@ header ul li{float:left;
 
 .right{float:left;
     width: 30%;
-    height:450px;
+    height:400px;
     margin-bottom:40px;
     
 }
-ul li{
+
+
+.right ul li{
     list-style-type:none;
+    margin:40px;
 }
+
+
 
 .left{float:left;
       width:70%;
       height:450px;
 }
 
-h1{border-left:5px solid black;
-border-bottom:5px solid black;}
+h1{border-left:2px solid black;
+border-bottom:2px solid black;}
+
+
+
+.aaa{
+    width:500px;
+    height:200px;
+    background-color: gray;
+    
+}
+
+
+.aaa img{
+    width:100px;
+    margin:8px;
+}
+
