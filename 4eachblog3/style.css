@@ -1,4 +1,4 @@
-header {
+header{
     width: 100%;
     height: 60px;
     background-color: black;
@@ -20,86 +20,41 @@ main {
     width:100%;
 }
 
-.right {
-    float: left;
-    width: 70%;
-    height: 500px;
-    margin-bottom: 100px;
-}
-
-.right h1 {
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-}
-
-.right .box {
-    width: 100%;
-    height: 555px;
-    background-color: lightgray;
-}
-
-.right .box .box1 {
-    padding-top: 10px;
-}
-
-.right .box .box1 ul {
-    list-style: none;
-}
-
-.right .box .box1 li {
-    float: left;
-}
-
-.right .box .box1 li a {
-    display: black;
-    padding: 5px;
-    color: black;
-    font-size 15px;
-    text-decoration: none;
-}
-
-.right .box .box1 img {
-    width: 190px;
-}
-
-.right .box .box1 .text {
-    font-size: 15px;
-    text-align: center;
-
-}
-
-
-
-
-
-
-
 .left {
     float: left;
-    width: 30%;
-    height: 500px;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+
+.box{}
+
+
+
+.right {
+    float: left;
+    width:25%;
     margin-bottom: 100px;
 
 }
 
-.left .aa {
-    text-align: center;
+.right h2 {
     border-bottom: 2px dotted black;
     font-size: 30px;
 }
 
-.left ul li {
+.right ul li {
     line-height: 4;
     list-style: none;
 }
 
-.left .bb {
+.right .bb {
     text-align: center;
     border-bottom: 2px dotted black;
     font-size: 30px;
 }
 
-.left .cc {
+.right .cc {
     text-align: center;
     border-bottom: 2px dotted black;
     font-size: 30px;
@@ -107,9 +62,7 @@ main {
 
 
 
-.fff{clear:both;}
-
-.footer333 {
+footer {
     clear: left;
     width: 100%;
     height: 60px;
