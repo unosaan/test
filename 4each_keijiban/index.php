@@ -4,7 +4,7 @@
 <head>
     <meta charaset="UTF-8">
     <title>4eachblog 掲示板</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
 
             <div class="left">
                 <h1>プログラミングに役立つ掲示板</h1>
-                <form method="post" action="4each_keijiban">
+                <form method="post" action="insert.php">
                     <h2>入力フォーム</h2>
                     <div>
                         <label>ハンドルネーム</label>
@@ -44,36 +44,47 @@
                         <textarea cols="50" rows="7" name="comments"></textarea></div>
                     <div>
                         <input type="submit" class="submit" value="投稿する"></div>
-                    <div class="right">
+                    </form>
+         </div>
+             <div class="right">
                         <h2>人気の記事</h2>
                         <ul>
                             <li>PHPオススメ本</li>
+                            <br>
                             <li>PHP Myadminの使い方</li>
+                            <br>
                             <li>今人気のエディタTop5</li>
+                            <br>
                             <li>HTMLの基礎</li>
                         </ul>
 
                         <h2>オススメリンク</h2>
                         <ul>
                             <li>インターノウス株式会社</li>
+                            <br>
                             <li>XAMPPのダウンロード</li>
+                            <br>
                             <li>Eclipseのダウンロード</li>
+                            <br>
                             <li>Braketsのダウンロード</li>
                         </ul>
                         <h2>カテゴリ</h2>
                         <ul>
                             <li>HTML</li>
+                            <br>
                             <li>PHP</li>
+                            <br>
                             <li>Mysql</li>
+                            <br>
                             <li>JavaScript</li>
                         </ul>
-                    </div>
-
-
-
-
-                </form>
             </div>
+
+
+
+
+                
+            
         </div>
     </main>
 
