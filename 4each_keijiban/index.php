@@ -8,7 +8,8 @@
 </head>
 
 <body>
-
+    
+   
     <img src="4eachblog_logo.jpg" class="logo">
     <header>
         <ul>
@@ -45,6 +46,45 @@
                     <div>
                         <input type="submit" class="submit" value="投稿する"></div>
                     </form>
+                <?php
+    
+    mb_internal_encoding("utf8");
+    $pdo =new PDO("mysql:dbname=lesson01;host=localhost;","root","mysql");
+    $stmt = $pdo->query("select * from 4each_keijiban");
+    
+    
+   
+    ?>
+    
+    <?php
+    
+    echo " <div class='kiji'> ";
+    echo " <h3>タイトル</h3> ";
+    echo " <div class='conntents'> ";
+    echo "記事の中身。記事の中身。記事の中身。記事の中身。記事の中身。記事の中身。記事の中身。記事の中身。記事の中身。記事の中身。記事の中身。<br>
+    記事の中身。記事の中身。記事の中身。記事の中身。記事の中身。<br>
+    記事の中身。記事の中身。記事の中身。記事の中身。記事の中身。<br>
+    記事の中身。記事の中身。記事の中身。記事の中身。記事の中身。<br>";
+    echo " <div class='handlename'>posted by 通りすがり</div>";
+    echo "</div>";
+    echo "</div>";
+    
+    ?>
+    
+    <?php
+    
+    while ($row =$stmt->fetch()){
+        echo "<div class='kiji'>";
+        echo "<h3>" .$row['title']."</h3>";
+        echo "<div class='comments'>";
+        echo $row['comments'];
+        echo "<div class='handlename'>posted by".$row['handlename']."</div>";
+        echo "</div>";
+        echo "</div>";
+    }
+    
+    ?>
+                
          </div>
              <div class="right">
                         <h2>人気の記事</h2>
@@ -79,7 +119,8 @@
                             <li>JavaScript</li>
                         </ul>
             </div>
-
+            
+           
 
 
 
