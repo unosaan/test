@@ -9,8 +9,19 @@
 
 <body>
     
+    <?php
+    
+    mb_internal_encoding("utf8");
+    $pdo =new PDO("mysql:dbname=lesson01;host=localhost;","root","mysql");
+    $stmt = $pdo->query("select * from 4each_keijiban");
+    
+    
    
-    <img src="4eachblog_logo.jpg" class="logo">
+    ?>
+    
+    
+   
+    <img src="4eachblog_logo.jpg" >
     <header>
         <ul>
             <li>トップ</li>
@@ -46,16 +57,7 @@
                     <div>
                         <input type="submit" class="submit" value="投稿する"></div>
                     </form>
-                <?php
-    
-    mb_internal_encoding("utf8");
-    $pdo =new PDO("mysql:dbname=lesson01;host=localhost;","root","mysql");
-    $stmt = $pdo->query("select * from 4each_keijiban");
-    
-    
-   
-    ?>
-    
+                
     <?php
     
     echo " <div class='kiji'> ";
@@ -70,10 +72,10 @@
     echo "</div>";
     
     ?>
-    
-    <?php
+     <?php
     
     while ($row =$stmt->fetch()){
+        
         echo "<div class='kiji'>";
         echo "<h3>" .$row['title']."</h3>";
         echo "<div class='comments'>";
@@ -84,6 +86,7 @@
     }
     
     ?>
+    
                 
          </div>
              <div class="right">
