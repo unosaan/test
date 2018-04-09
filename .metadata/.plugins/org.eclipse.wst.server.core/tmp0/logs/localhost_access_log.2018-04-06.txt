@@ -22,3 +22,6 @@
 0:0:0:0:0:0:0:1 - - [06/Apr/2018:21:26:28 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 56
 0:0:0:0:0:0:0:1 - - [06/Apr/2018:21:29:37 +0900] "GET /HelloServlet/TestServlet?username=aaa&password=aaaa HTTP/1.1" 200 56
 0:0:0:0:0:0:0:1 - - [06/Apr/2018:21:29:45 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 58
+127.0.0.1 - - [06/Apr/2018:21:39:51 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [06/Apr/2018:21:39:51 +0900] "GET /HelloServlet/ HTTP/1.1" 200 732
+0:0:0:0:0:0:0:1 - - [06/Apr/2018:21:39:59 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 56
