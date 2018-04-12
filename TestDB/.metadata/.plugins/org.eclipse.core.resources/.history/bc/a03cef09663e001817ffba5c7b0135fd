@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.internousdev.login.util;
+
+/**
+ * @author 宇野　佑
+ *
+ */
+public class DBConnector {
+
+}

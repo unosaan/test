@@ -1,16 +1,16 @@
 set names utf8;
 set foreign_key_checks=0;
-drop database if exist logindb;
+drop database if exists logindb;
 create database logindb;
-user logindb;
+use logindb;
 
-create table user(
+create tabel user(
 id int,
 user_name varchar(255),
 password varchar(255)
 );
 
-insert into user values
+insert into values
 (1,"taro","123"),
 (2,"jiro","123"),
 (3,"hanako","123"),
