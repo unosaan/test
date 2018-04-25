@@ -13,5 +13,14 @@
 <s:submit value="HelloStruts"/>
 </s:form>
 
+<s:form action="WelcomeAction">
+<s:submit value="Welcome"/>
+</s:form>
+
+<s:form action="InquiryAction">
+<s:submit value="お問い合わせ"/>
+</s:form>
+
+
 </body>
 </html>
