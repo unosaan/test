@@ -1,0 +1,18 @@
+package com.internousdev.webproj3.dto;
+
+
+
+public class InquiryDTO {
+	private String name;
+	private String qtype;
+	private String body;
+
+	public String getName(){{
+		return name;
+	}
+	public void set Name(String name){
+		this.name=name;
+	}
+	public String getQtype(){
+
+}
