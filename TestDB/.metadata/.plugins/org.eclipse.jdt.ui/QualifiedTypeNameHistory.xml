@@ -3,4 +3,5 @@
 <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 <fullyQualifiedTypeName name="com.internousdev.login.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.login.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="Com.internousdev.webproj4.util.DBconnector"/>
 </qualifiedTypeNameHistroy>

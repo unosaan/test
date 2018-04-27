@@ -17,7 +17,7 @@ public class TestDAO {
 			ps.setString(1, username);
 			ps.setString(2, password);
 			int i=ps.executeUpdate();
-			if(i<0){
+			if(i>0){
 				System.out.println(i+"件登録されました");
 				ret=i;
 			}
