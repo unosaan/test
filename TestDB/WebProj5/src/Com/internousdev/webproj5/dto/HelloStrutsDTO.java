@@ -5,14 +5,14 @@ public class HelloStrutsDTO {
 	private String userName;
 	private String password;
 	private String result;
-	
+
 	public int getUserId(){
 		return userId;
 	}
 	public void setUserId(int userId){
 		this.userId=userId;
 	}
-	
+
 	public String getUserName(){
 		return userName;
 	}
@@ -28,7 +28,7 @@ public class HelloStrutsDTO {
 	public String getResult(){
 		return result;
 	}
-	public void setResulr(String result){
+	public void setResult(String result){
 		this.result=result;
 	}
 
