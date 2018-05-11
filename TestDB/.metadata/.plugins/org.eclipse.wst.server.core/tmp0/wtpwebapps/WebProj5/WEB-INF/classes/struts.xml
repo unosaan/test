@@ -26,7 +26,17 @@ method="execute">
 
 <action name="InquiryAction" class="Com.internousdev.webproj5.action.InquiryAction"
 method="execute">
-<result name="success">inquiry,jsp</result>
+<result name="success">inquiry.jsp</result>
+</action>
+
+<action name="InquiryCompleteAction" class="Com.internousdev.webproj5.action.InquiryCompleteAction"
+method="execute">
+<result name="success">inquiryComplete.jsp</result>
+</action>
+
+<action name="TestAction" class="Com.internousdev.webproj5.action.TestAction"
+method="execute">
+<result name="success">test.jsp</result>
 </action>
 </package>
 
