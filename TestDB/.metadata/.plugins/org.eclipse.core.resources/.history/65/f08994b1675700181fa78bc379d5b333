@@ -1,0 +1,6 @@
+package cm.internousdev.template.dto;
+
+public class Snippet {
+	Tablespace for table '`ecsite`.`login_user_transaction`' exists. Please DISCARD the tablespace before IMPORT.
+}
+
