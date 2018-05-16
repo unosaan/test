@@ -18,7 +18,7 @@ margin:0;
 padding:0;
 line-height:1.6;
 letter-spacing:1px;
-font-family:Verdaba,Helvetica,sans-serfif;
+font-family:Verdaba,Helvetica,sans-serif;
 font-size:12px;
 color:#333;
 background:#fff;
@@ -31,7 +31,7 @@ margin:0 auto;
 
 #top{
 width:780px;
-margin:30px auot;
+margin:30px auto;
 border:1px solid #333;
 }
 
