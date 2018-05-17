@@ -5,4 +5,5 @@
 <fullyQualifiedTypeName name="com.internousdev.login.dao.LoginDAO"/>
 <fullyQualifiedTypeName name="Com.internousdev.webproj4.util.DBconnector"/>
 <fullyQualifiedTypeName name="Com.internousdev.webproj5.dao.TestDAO"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 </qualifiedTypeNameHistroy>
