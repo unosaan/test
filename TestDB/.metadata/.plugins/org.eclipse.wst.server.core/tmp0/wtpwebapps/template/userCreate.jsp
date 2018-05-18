@@ -85,7 +85,7 @@ clear:both;
 </td>
 
 <td>
-<input type="text" name="loginPassword" value=""/>
+<input type="text" name="loginUserId"value=""/>
 </td>
 </tr>
 <tr>
