@@ -1,0 +1,10 @@
+127.0.0.1 - - [28/Jun/2018:19:16:58 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:19:17:01 +0900] "GET /ecsite/ HTTP/1.1" 200 1458
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:19:17:03 +0900] "POST /ecsite/HomeAction.action;jsessionid=566E00CF4CF7C5CAE2D35083365B95FB HTTP/1.1" 200 1935
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:19:17:20 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:19:17:23 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 1944
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:19:22:28 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 2145
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:19:22:34 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2090
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:19:22:36 +0900] "POST /ecsite/BuyItemConfirmAction HTTP/1.1" 200 1339
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:19:24:18 +0900] "GET /ecsite/MyPageAction.action HTTP/1.1" 200 3437
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:19:24:21 +0900] "GET /ecsite/GoHomeAction.action HTTP/1.1" 200 3437
